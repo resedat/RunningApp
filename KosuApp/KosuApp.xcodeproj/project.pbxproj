@@ -1,0 +1,783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF382770292D00DE004E2B05 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF38276F292D00DE004E2B05 /* Extensions.swift */; };
+		AF58CD08292D62F000C73BA3 /* Kosu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF58CD07292D62F000C73BA3 /* Kosu.swift */; };
+		AF58CD0A292D69ED00C73BA3 /* Sabitler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF58CD09292D69ED00C73BA3 /* Sabitler.swift */; };
+		AF58CD0C292D6E0200C73BA3 /* KosuKayitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF58CD0B292D6E0200C73BA3 /* KosuKayitCell.swift */; };
+		AFAD1ABA292B8FD8007A05BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAD1AB9292B8FD8007A05BC /* AppDelegate.swift */; };
+		AFAD1ABC292B8FD8007A05BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAD1ABB292B8FD8007A05BC /* SceneDelegate.swift */; };
+		AFAD1ABE292B8FD8007A05BC /* KosuyaBaslaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAD1ABD292B8FD8007A05BC /* KosuyaBaslaViewController.swift */; };
+		AFAD1AC1292B8FD8007A05BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAD1ABF292B8FD8007A05BC /* Main.storyboard */; };
+		AFAD1AC3292B8FD9007A05BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFAD1AC2292B8FD9007A05BC /* Assets.xcassets */; };
+		AFAD1AC6292B8FD9007A05BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAD1AC4292B8FD9007A05BC /* LaunchScreen.storyboard */; };
+		AFAD1AD1292B8FD9007A05BC /* KosuAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAD1AD0292B8FD9007A05BC /* KosuAppTests.swift */; };
+		AFAD1ADB292B8FD9007A05BC /* KosuAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAD1ADA292B8FD9007A05BC /* KosuAppUITests.swift */; };
+		AFAD1ADD292B8FD9007A05BC /* KosuAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAD1ADC292B8FD9007A05BC /* KosuAppUITestsLaunchTests.swift */; };
+		AFAD1AEA292B9B36007A05BC /* KosuGecmisiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAD1AE9292B9B36007A05BC /* KosuGecmisiViewController.swift */; };
+		AFC4FF1F292EF99E009074C4 /* Konum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC4FF1E292EF99E009074C4 /* Konum.swift */; };
+		AFD4562A292BC42C00BC36F2 /* KonumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD45629292BC42C00BC36F2 /* KonumViewController.swift */; };
+		AFD4562C292BDCFA00BC36F2 /* KosuyorumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD4562B292BDCFA00BC36F2 /* KosuyorumViewController.swift */; };
+		B35D02F067280C7145538E04 /* libPods-KosuAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0A2D3E2FFC723403DA244E /* libPods-KosuAppTests.a */; };
+		DC09BC6738D62D2A88BE67BE /* libPods-KosuApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E59B19B25F0B06EB9F02DAB8 /* libPods-KosuApp.a */; };
+		EF68A1C4E866C8F294DB1447 /* libPods-KosuApp-KosuAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 980DE941227A4489DC4BBE4B /* libPods-KosuApp-KosuAppUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFAD1ACD292B8FD9007A05BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFAD1AAE292B8FD8007A05BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFAD1AB5292B8FD8007A05BC;
+			remoteInfo = KosuApp;
+		};
+		AFAD1AD7292B8FD9007A05BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFAD1AAE292B8FD8007A05BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFAD1AB5292B8FD8007A05BC;
+			remoteInfo = KosuApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06F773D58319C809D0BC1BB1 /* Pods-KosuAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KosuAppTests.debug.xcconfig"; path = "Target Support Files/Pods-KosuAppTests/Pods-KosuAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0B2F209202D062B59F210BCB /* Pods-KosuAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KosuAppTests.release.xcconfig"; path = "Target Support Files/Pods-KosuAppTests/Pods-KosuAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		11907837A09F50FD8B501238 /* Pods-KosuApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KosuApp.release.xcconfig"; path = "Target Support Files/Pods-KosuApp/Pods-KosuApp.release.xcconfig"; sourceTree = "<group>"; };
+		4F0A2D3E2FFC723403DA244E /* libPods-KosuAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KosuAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		648064653323C96D76228856 /* Pods-KosuApp-KosuAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KosuApp-KosuAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-KosuApp-KosuAppUITests/Pods-KosuApp-KosuAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E17B369817D05C9DE65DFCD /* Pods-KosuApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KosuApp.debug.xcconfig"; path = "Target Support Files/Pods-KosuApp/Pods-KosuApp.debug.xcconfig"; sourceTree = "<group>"; };
+		980DE941227A4489DC4BBE4B /* libPods-KosuApp-KosuAppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KosuApp-KosuAppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF38276F292D00DE004E2B05 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AF58CD07292D62F000C73BA3 /* Kosu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kosu.swift; sourceTree = "<group>"; };
+		AF58CD09292D69ED00C73BA3 /* Sabitler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sabitler.swift; sourceTree = "<group>"; };
+		AF58CD0B292D6E0200C73BA3 /* KosuKayitCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KosuKayitCell.swift; sourceTree = "<group>"; };
+		AFAD1AB6292B8FD8007A05BC /* KosuApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KosuApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFAD1AB9292B8FD8007A05BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFAD1ABB292B8FD8007A05BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AFAD1ABD292B8FD8007A05BC /* KosuyaBaslaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KosuyaBaslaViewController.swift; sourceTree = "<group>"; };
+		AFAD1AC0292B8FD8007A05BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFAD1AC2292B8FD9007A05BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFAD1AC5292B8FD9007A05BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFAD1AC7292B8FD9007A05BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFAD1ACC292B8FD9007A05BC /* KosuAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KosuAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFAD1AD0292B8FD9007A05BC /* KosuAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KosuAppTests.swift; sourceTree = "<group>"; };
+		AFAD1AD6292B8FD9007A05BC /* KosuAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KosuAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFAD1ADA292B8FD9007A05BC /* KosuAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KosuAppUITests.swift; sourceTree = "<group>"; };
+		AFAD1ADC292B8FD9007A05BC /* KosuAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KosuAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AFAD1AE9292B9B36007A05BC /* KosuGecmisiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KosuGecmisiViewController.swift; sourceTree = "<group>"; };
+		AFC4FF1E292EF99E009074C4 /* Konum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Konum.swift; sourceTree = "<group>"; };
+		AFD45629292BC42C00BC36F2 /* KonumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KonumViewController.swift; sourceTree = "<group>"; };
+		AFD4562B292BDCFA00BC36F2 /* KosuyorumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KosuyorumViewController.swift; sourceTree = "<group>"; };
+		E59B19B25F0B06EB9F02DAB8 /* libPods-KosuApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KosuApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE5617E8582EF86E9C886AB /* Pods-KosuApp-KosuAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KosuApp-KosuAppUITests.release.xcconfig"; path = "Target Support Files/Pods-KosuApp-KosuAppUITests/Pods-KosuApp-KosuAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFAD1AB3292B8FD8007A05BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC09BC6738D62D2A88BE67BE /* libPods-KosuApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFAD1AC9292B8FD9007A05BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B35D02F067280C7145538E04 /* libPods-KosuAppTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFAD1AD3292B8FD9007A05BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF68A1C4E866C8F294DB1447 /* libPods-KosuApp-KosuAppUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E17B727FAFC89E00703D71F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E59B19B25F0B06EB9F02DAB8 /* libPods-KosuApp.a */,
+				980DE941227A4489DC4BBE4B /* libPods-KosuApp-KosuAppUITests.a */,
+				4F0A2D3E2FFC723403DA244E /* libPods-KosuAppTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF38276E292D00B1004E2B05 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AF38276F292D00DE004E2B05 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AFAD1AAD292B8FD8007A05BC = {
+			isa = PBXGroup;
+			children = (
+				AFAD1AB8292B8FD8007A05BC /* KosuApp */,
+				AFAD1ACF292B8FD9007A05BC /* KosuAppTests */,
+				AFAD1AD9292B8FD9007A05BC /* KosuAppUITests */,
+				AFAD1AB7292B8FD8007A05BC /* Products */,
+				BE186C55E8488DC90FAF6973 /* Pods */,
+				7E17B727FAFC89E00703D71F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AFAD1AB7292B8FD8007A05BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFAD1AB6292B8FD8007A05BC /* KosuApp.app */,
+				AFAD1ACC292B8FD9007A05BC /* KosuAppTests.xctest */,
+				AFAD1AD6292B8FD9007A05BC /* KosuAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFAD1AB8292B8FD8007A05BC /* KosuApp */ = {
+			isa = PBXGroup;
+			children = (
+				AF38276E292D00B1004E2B05 /* Extensions */,
+				AFAD1AED292BB285007A05BC /* Model */,
+				AFAD1AEC292BB27F007A05BC /* View */,
+				AFAD1AEB292BB279007A05BC /* Controller */,
+				AFAD1AB9292B8FD8007A05BC /* AppDelegate.swift */,
+				AFAD1ABB292B8FD8007A05BC /* SceneDelegate.swift */,
+				AFAD1ABF292B8FD8007A05BC /* Main.storyboard */,
+				AFAD1AC2292B8FD9007A05BC /* Assets.xcassets */,
+				AFAD1AC4292B8FD9007A05BC /* LaunchScreen.storyboard */,
+				AFAD1AC7292B8FD9007A05BC /* Info.plist */,
+			);
+			path = KosuApp;
+			sourceTree = "<group>";
+		};
+		AFAD1ACF292B8FD9007A05BC /* KosuAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFAD1AD0292B8FD9007A05BC /* KosuAppTests.swift */,
+			);
+			path = KosuAppTests;
+			sourceTree = "<group>";
+		};
+		AFAD1AD9292B8FD9007A05BC /* KosuAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFAD1ADA292B8FD9007A05BC /* KosuAppUITests.swift */,
+				AFAD1ADC292B8FD9007A05BC /* KosuAppUITestsLaunchTests.swift */,
+			);
+			path = KosuAppUITests;
+			sourceTree = "<group>";
+		};
+		AFAD1AEB292BB279007A05BC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AFAD1ABD292B8FD8007A05BC /* KosuyaBaslaViewController.swift */,
+				AFAD1AE9292B9B36007A05BC /* KosuGecmisiViewController.swift */,
+				AFD45629292BC42C00BC36F2 /* KonumViewController.swift */,
+				AFD4562B292BDCFA00BC36F2 /* KosuyorumViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AFAD1AEC292BB27F007A05BC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AF58CD0B292D6E0200C73BA3 /* KosuKayitCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AFAD1AED292BB285007A05BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AF58CD07292D62F000C73BA3 /* Kosu.swift */,
+				AF58CD09292D69ED00C73BA3 /* Sabitler.swift */,
+				AFC4FF1E292EF99E009074C4 /* Konum.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE186C55E8488DC90FAF6973 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E17B369817D05C9DE65DFCD /* Pods-KosuApp.debug.xcconfig */,
+				11907837A09F50FD8B501238 /* Pods-KosuApp.release.xcconfig */,
+				648064653323C96D76228856 /* Pods-KosuApp-KosuAppUITests.debug.xcconfig */,
+				ECE5617E8582EF86E9C886AB /* Pods-KosuApp-KosuAppUITests.release.xcconfig */,
+				06F773D58319C809D0BC1BB1 /* Pods-KosuAppTests.debug.xcconfig */,
+				0B2F209202D062B59F210BCB /* Pods-KosuAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFAD1AB5292B8FD8007A05BC /* KosuApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFAD1AE0292B8FD9007A05BC /* Build configuration list for PBXNativeTarget "KosuApp" */;
+			buildPhases = (
+				26F40760F3A0E1819CFEB3E1 /* [CP] Check Pods Manifest.lock */,
+				AFAD1AB2292B8FD8007A05BC /* Sources */,
+				AFAD1AB3292B8FD8007A05BC /* Frameworks */,
+				AFAD1AB4292B8FD8007A05BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KosuApp;
+			productName = KosuApp;
+			productReference = AFAD1AB6292B8FD8007A05BC /* KosuApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFAD1ACB292B8FD9007A05BC /* KosuAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFAD1AE3292B8FD9007A05BC /* Build configuration list for PBXNativeTarget "KosuAppTests" */;
+			buildPhases = (
+				0EE4CD78F7AD04F190C26FB4 /* [CP] Check Pods Manifest.lock */,
+				AFAD1AC8292B8FD9007A05BC /* Sources */,
+				AFAD1AC9292B8FD9007A05BC /* Frameworks */,
+				AFAD1ACA292B8FD9007A05BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFAD1ACE292B8FD9007A05BC /* PBXTargetDependency */,
+			);
+			name = KosuAppTests;
+			productName = KosuAppTests;
+			productReference = AFAD1ACC292B8FD9007A05BC /* KosuAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFAD1AD5292B8FD9007A05BC /* KosuAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFAD1AE6292B8FD9007A05BC /* Build configuration list for PBXNativeTarget "KosuAppUITests" */;
+			buildPhases = (
+				BC0C133769758654F8D34583 /* [CP] Check Pods Manifest.lock */,
+				AFAD1AD2292B8FD9007A05BC /* Sources */,
+				AFAD1AD3292B8FD9007A05BC /* Frameworks */,
+				AFAD1AD4292B8FD9007A05BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFAD1AD8292B8FD9007A05BC /* PBXTargetDependency */,
+			);
+			name = KosuAppUITests;
+			productName = KosuAppUITests;
+			productReference = AFAD1AD6292B8FD9007A05BC /* KosuAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFAD1AAE292B8FD8007A05BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					AFAD1AB5292B8FD8007A05BC = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					AFAD1ACB292B8FD9007A05BC = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = AFAD1AB5292B8FD8007A05BC;
+					};
+					AFAD1AD5292B8FD9007A05BC = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = AFAD1AB5292B8FD8007A05BC;
+					};
+				};
+			};
+			buildConfigurationList = AFAD1AB1292B8FD8007A05BC /* Build configuration list for PBXProject "KosuApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFAD1AAD292B8FD8007A05BC;
+			productRefGroup = AFAD1AB7292B8FD8007A05BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFAD1AB5292B8FD8007A05BC /* KosuApp */,
+				AFAD1ACB292B8FD9007A05BC /* KosuAppTests */,
+				AFAD1AD5292B8FD9007A05BC /* KosuAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFAD1AB4292B8FD8007A05BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFAD1AC6292B8FD9007A05BC /* LaunchScreen.storyboard in Resources */,
+				AFAD1AC3292B8FD9007A05BC /* Assets.xcassets in Resources */,
+				AFAD1AC1292B8FD8007A05BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFAD1ACA292B8FD9007A05BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFAD1AD4292B8FD9007A05BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EE4CD78F7AD04F190C26FB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KosuAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26F40760F3A0E1819CFEB3E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KosuApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC0C133769758654F8D34583 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KosuApp-KosuAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFAD1AB2292B8FD8007A05BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD4562A292BC42C00BC36F2 /* KonumViewController.swift in Sources */,
+				AFAD1AEA292B9B36007A05BC /* KosuGecmisiViewController.swift in Sources */,
+				AFAD1ABE292B8FD8007A05BC /* KosuyaBaslaViewController.swift in Sources */,
+				AFAD1ABA292B8FD8007A05BC /* AppDelegate.swift in Sources */,
+				AF58CD0C292D6E0200C73BA3 /* KosuKayitCell.swift in Sources */,
+				AF58CD0A292D69ED00C73BA3 /* Sabitler.swift in Sources */,
+				AFAD1ABC292B8FD8007A05BC /* SceneDelegate.swift in Sources */,
+				AFD4562C292BDCFA00BC36F2 /* KosuyorumViewController.swift in Sources */,
+				AFC4FF1F292EF99E009074C4 /* Konum.swift in Sources */,
+				AF382770292D00DE004E2B05 /* Extensions.swift in Sources */,
+				AF58CD08292D62F000C73BA3 /* Kosu.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFAD1AC8292B8FD9007A05BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFAD1AD1292B8FD9007A05BC /* KosuAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFAD1AD2292B8FD9007A05BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFAD1ADD292B8FD9007A05BC /* KosuAppUITestsLaunchTests.swift in Sources */,
+				AFAD1ADB292B8FD9007A05BC /* KosuAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFAD1ACE292B8FD9007A05BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFAD1AB5292B8FD8007A05BC /* KosuApp */;
+			targetProxy = AFAD1ACD292B8FD9007A05BC /* PBXContainerItemProxy */;
+		};
+		AFAD1AD8292B8FD9007A05BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFAD1AB5292B8FD8007A05BC /* KosuApp */;
+			targetProxy = AFAD1AD7292B8FD9007A05BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFAD1ABF292B8FD8007A05BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFAD1AC0292B8FD8007A05BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFAD1AC4292B8FD9007A05BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFAD1AC5292B8FD9007A05BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFAD1ADE292B8FD9007A05BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFAD1ADF292B8FD9007A05BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFAD1AE1292B8FD9007A05BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E17B369817D05C9DE65DFCD /* Pods-KosuApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KosuApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = resedat.KosuApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFAD1AE2292B8FD9007A05BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11907837A09F50FD8B501238 /* Pods-KosuApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KosuApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = resedat.KosuApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AFAD1AE4292B8FD9007A05BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06F773D58319C809D0BC1BB1 /* Pods-KosuAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = resedat.KosuAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KosuApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KosuApp";
+			};
+			name = Debug;
+		};
+		AFAD1AE5292B8FD9007A05BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B2F209202D062B59F210BCB /* Pods-KosuAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = resedat.KosuAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KosuApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KosuApp";
+			};
+			name = Release;
+		};
+		AFAD1AE7292B8FD9007A05BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 648064653323C96D76228856 /* Pods-KosuApp-KosuAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = resedat.KosuAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KosuApp;
+			};
+			name = Debug;
+		};
+		AFAD1AE8292B8FD9007A05BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECE5617E8582EF86E9C886AB /* Pods-KosuApp-KosuAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = resedat.KosuAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KosuApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFAD1AB1292B8FD8007A05BC /* Build configuration list for PBXProject "KosuApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFAD1ADE292B8FD9007A05BC /* Debug */,
+				AFAD1ADF292B8FD9007A05BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFAD1AE0292B8FD9007A05BC /* Build configuration list for PBXNativeTarget "KosuApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFAD1AE1292B8FD9007A05BC /* Debug */,
+				AFAD1AE2292B8FD9007A05BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFAD1AE3292B8FD9007A05BC /* Build configuration list for PBXNativeTarget "KosuAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFAD1AE4292B8FD9007A05BC /* Debug */,
+				AFAD1AE5292B8FD9007A05BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFAD1AE6292B8FD9007A05BC /* Build configuration list for PBXNativeTarget "KosuAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFAD1AE7292B8FD9007A05BC /* Debug */,
+				AFAD1AE8292B8FD9007A05BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFAD1AAE292B8FD8007A05BC /* Project object */;
+}
