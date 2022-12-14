@@ -19,6 +19,7 @@ class KosuyaBaslaViewController: KonumViewController {
     @IBOutlet weak var stackViewSonKosu: UIStackView!
     @IBOutlet weak var viewSonKosu: UIView!
     
+    
     @IBOutlet weak var mapView: MKMapView!
     
     override func viewDidLoad() {
