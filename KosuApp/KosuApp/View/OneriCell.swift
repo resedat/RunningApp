@@ -9,6 +9,8 @@ import UIKit
 
 class OneriCell: UICollectionViewCell {
     
+    
+    
     @IBOutlet weak var imgOneri: UIImageView!
     
     override func awakeFromNib() {
