@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ResultViewController: UIViewController {
+class ResultVC: UIViewController {
 
     var index: String?
     var labelForSuggestion: String?

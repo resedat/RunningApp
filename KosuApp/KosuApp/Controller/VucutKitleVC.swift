@@ -40,7 +40,7 @@ class ViewController: UIViewController {
     
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let resultVC = segue.destination as? ResultViewController {
+        if let resultVC = segue.destination as? ResultVC {
             let bmi = (weightSlider.value / (heightSlider.value * heightSlider.value))
             let formatter = String(format: "%.1f", bmi)
             resultVC.index = formatter

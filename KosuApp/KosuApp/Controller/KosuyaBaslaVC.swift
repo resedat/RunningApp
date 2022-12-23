@@ -9,7 +9,7 @@ import UIKit
 import MapKit
 import RealmSwift
 
-class KosuyaBaslaViewController: KonumViewController {
+class KosuyaBaslaVC: KonumVC {
     
     
     @IBOutlet weak var lblMesafe: UILabel!
@@ -29,6 +29,7 @@ class KosuyaBaslaViewController: KonumViewController {
 
         print (Kosu.kosularinTumunuGetir())
     }
+    
     
     override func viewWillAppear(_ animated: Bool) {
         manager?.delegate = self
@@ -85,6 +86,9 @@ class KosuyaBaslaViewController: KonumViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+
+        
         ayarlaMapView()
     }
     
@@ -130,7 +134,7 @@ class KosuyaBaslaViewController: KonumViewController {
     
 }
 
-extension KosuyaBaslaViewController : CLLocationManagerDelegate {
+extension KosuyaBaslaVC : CLLocationManagerDelegate {
     
     func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
         

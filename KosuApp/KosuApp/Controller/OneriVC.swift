@@ -7,7 +7,7 @@
 
 import UIKit
 
-class OneriViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class OneriVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     var secilenKategoriAdi: String = ""
     

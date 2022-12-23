@@ -9,7 +9,7 @@ import UIKit
 import MapKit
 import RealmSwift
 
-class KosuyorumViewController: KonumViewController {
+class KosuyorumVC: KonumVC {
 
     @IBOutlet weak var imgKosuOutline: UIImageView!
     @IBOutlet weak var btnKosuBitir: UIButton!
@@ -124,7 +124,7 @@ class KosuyorumViewController: KonumViewController {
 
 }
 
-extension KosuyorumViewController : CLLocationManagerDelegate {
+extension KosuyorumVC : CLLocationManagerDelegate {
     func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
         if status == .authorizedWhenInUse {
             izinKontrol()

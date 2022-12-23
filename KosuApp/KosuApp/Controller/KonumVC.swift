@@ -8,7 +8,7 @@
 import UIKit
 import MapKit
 
-class KonumViewController: UIViewController, MKMapViewDelegate {
+class KonumVC: UIViewController, MKMapViewDelegate {
     
     var manager : CLLocationManager?
 

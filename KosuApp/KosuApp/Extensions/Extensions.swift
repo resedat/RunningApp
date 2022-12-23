@@ -5,7 +5,7 @@
 //  Created by Sedat on 22.11.2022.
 //
 
-import Foundation
+import UIKit
 
 extension Int {
     func saniyeSureCevir() -> String {
@@ -39,5 +39,17 @@ extension NSDate {
         return "\(gun)/\(ay)/\(yil)"
     }
     
+    
+}
+
+extension UIView {
+    
+    @IBInspectable var cornerRadius: CGFloat{
+        get{return cornerRadius}
+        set{
+            self.layer.cornerRadius = newValue
+            
+        }
+    }
     
 }

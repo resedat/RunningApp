@@ -7,7 +7,7 @@
 
 import UIKit
 
-class KosuGecmisiViewController: UIViewController {
+class KosuGecmisiVC: UIViewController {
     
     
     @IBOutlet weak var tableView: UITableView!
@@ -28,7 +28,7 @@ class KosuGecmisiViewController: UIViewController {
     
 }
 
-extension KosuGecmisiViewController : UITableViewDelegate, UITableViewDataSource {
+extension KosuGecmisiVC : UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return Kosu.kosularinTumunuGetir()?.count ?? 0
